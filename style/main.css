@@ -10,23 +10,33 @@ h1 {
 p {
   color: black;
   text-align: center;
+  padding-bottom: 100px;
 }
 
 @keyframes juliaanimation {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
+  from {transform: rotate(0deg) translateY(100px) rotate(0deg);}
+  to {transform: rotate(360deg) translateY(100px) rotate(0deg);}
 }
 
 div {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  background-image: linear-gradient(90deg, red, yellow);
   margin: auto;
 }
 
-.div {
-    animation: juliaanimation 2s infinite linear;
+.sun {
+    background-image: linear-gradient(
+      0deg,
+      hsl(0deg 76% 55%) 0%,
+      hsl(27deg 95% 54%) 19%,
+      hsl(45deg 89% 57%) 34%,
+      hsl(65deg 60% 57%) 47%,
+      hsl(129deg 32% 62%) 60%,
+      hsl(202deg 70% 68%) 99%
+    );
+    opacity: 0.95;
+    border-radius: 50%;
+    animation: juliaanimation 3s infinite linear;
     transition: width 1s, height 1s
 }
 
@@ -34,3 +44,4 @@ div:hover {
   width: 250px;
   height: 250px;
 }
+
