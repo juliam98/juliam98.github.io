@@ -1,0 +1,50 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  color: black;
+  text-align: center;
+}
+
+@keyframes juliaanimation {
+  0% {transform: rotate(36deg);}
+  10% {transform: rotate(36deg)}
+  20% {transform: rotate(72deg)}
+  30% {transform: rotate(108deg)}
+  40% {transform: rotate(144deg)}
+  50% {transform: rotate(180deg)}
+  60% {transform: rotate(216deg)}
+  70% {transform: rotate(252deg)}
+  80% {transform: rotate(288deg)}
+  90% {transform: rotate(324deg)}
+  100% {transform: rotate(360deg)}
+}
+
+.center {
+  margin: auto;
+}
+
+div {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(90deg, red, yellow);
+  animation-name: juliaanimation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transition: width 1s, height 1s;
+}
+
+div:hover {
+  width: 300px;
+  height: 300px;
+}
