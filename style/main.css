@@ -14,14 +14,22 @@ p {
 }
 
 @keyframes juliaanimation {
-  from {transform: rotate(0deg) translateY(100px) rotate(0deg);}
-  to {transform: rotate(360deg) translateY(100px) rotate(0deg);}
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
 }
 
 div {
-  width: 150px;
-  height: 150px;
   margin: auto;
+  justify-content: center;
+}
+
+.header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  background-color: white;
+  z-index: 2;
 }
 
 .sun {
@@ -34,14 +42,13 @@ div {
       hsl(129deg 32% 62%) 60%,
       hsl(202deg 70% 68%) 99%
     );
+    width: 150px;
+    height: 150px;
     opacity: 0.95;
     border-radius: 50%;
-    animation: juliaanimation 3s infinite linear;
-    transition: width 1s, height 1s
+    animation: juliaanimation 2s infinite linear;
+    transition: width 1s, height 1s;
+    z-index: 1;
 }
 
-div:hover {
-  width: 250px;
-  height: 250px;
-}
 
