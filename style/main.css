@@ -4,13 +4,26 @@ body {
 
 h1 {
   color: black;
+  font-size: xxx-large;
   text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: xx-large;
+  color: black;
+  text-align: center;
+  padding: 10px 0px 0px;;
 }
 
 p {
   color: black;
-  text-align: center;
-  padding-bottom: 100px;
+  /* justify-content: center; */
+  text-align: justify;
+  font-size: larger;
+  margin-top: 10px;
+  /* width: 60%;
+  height: 60%; */
 }
 
 @keyframes juliaanimation {
@@ -18,30 +31,109 @@ p {
   to {transform: rotate(360deg);}
 }
 
-div {
+/* div {
+  /* margin: auto; */
+  /* justify-content: justify; */
+/* } */ 
+
+a {
   margin: auto;
   justify-content: center;
 }
 
+.center {
+  justify-content: justify;
+  /* text-align: right; */
+  margin-top: 0px;
+  display: block;
+  margin: auto;
+  width: 40%;
+  height: 60%;
+  /* align-items: center; */
+}
+
+.small_img {
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
+
+/* Header */
 .header{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  position: static;
+  top: 10;
   padding: 10px;
-  background-color: white;
+  background-color: rgb(109, 172, 218);
+  z-index: 2;
+}
+
+.header a{
+  color: #000;
+  text-decoration: none;
+  
+}
+
+  /* The navbar container */
+  .topnav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 2;
+  }
+
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  position: static;
+  object-fit: contain;
+  top: 0;
+  width: 80%;
+  z-index: 2;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  position: static;
+  top: 0;
+  width: 20%;
+  justify-content: right;
+  object-fit: contain;
   z-index: 2;
 }
 
 .sun {
-    background-image: linear-gradient(
-      0deg,
-      hsl(0deg 76% 55%) 0%,
-      hsl(27deg 95% 54%) 19%,
-      hsl(45deg 89% 57%) 34%,
-      hsl(65deg 60% 57%) 47%,
-      hsl(129deg 32% 62%) 60%,
-      hsl(202deg 70% 68%) 99%
-    );
+    background-image: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     width: 150px;
     height: 150px;
     opacity: 0.95;
@@ -51,4 +143,21 @@ div {
     z-index: 1;
 }
 
+abbr {
+  /* font-style: italic; */
+  position: relative
+}
 
+abbr:hover::after {
+  background: #e6e9e9;
+  font-size: small;
+  border-radius: 4px;
+  bottom: 100%;
+  content: attr(title);
+  display: block;
+  left: 100%;
+  padding: 1em;
+  position: absolute;    
+  width: 280px;
+  z-index: 2;
+}
