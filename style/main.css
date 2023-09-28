@@ -1,10 +1,11 @@
 body {
-  background-color: lightblue;
+  background-color: #A5CAC1;
 }
 
 h1 {
-  color: black;
-  font-size: xxx-large;
+  color: #A5CAC1;
+  font-size: 55px;
+  font-family: system-ui;
   text-align: center;
   margin-top: 30px;
 }
@@ -12,96 +13,109 @@ h1 {
 h2 {
   font-size: xx-large;
   color: black;
+  font-family: system-ui;
   text-align: center;
   padding: 0px 20px 20px;;
+  width: 40%;
+  margin: auto;
   margin-top: 30px;
 }
 
 p {
   color: black;
-  /* justify-content: center; */
-  text-align: justify;
-  font-size: larger;
-  margin-top: 10px;
-  /* width: 60%;
-  height: 60%; */
-}
-
-@keyframes juliaanimation {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
-}
-
-/* div {
-  /* margin: auto; */
-  /* justify-content: justify; */
-/* } */ 
-
-a {
-  margin: auto;
-  justify-content: center;
-}
-
-.center {
   justify-content: justify;
-  /* text-align: right; */
-  margin-top: 0px;
+  text-align: justify;
+  font-family: system-ui;
   display: block;
   margin: auto;
+  align-items: center;
+  font-size: 22px;
   width: 40%;
   height: 60%;
-  /* align-items: center; */
+  margin-bottom: 20px;
+}
+
+a {
+  font-family: system-ui;
+  font-size: large;
+  margin: auto;
+  /* justify-content: center; */
+  vertical-align:text-bottom;
+  height: 25px;
+}
+
+span {
+  justify-content: center;
+  margin: auto;
+  vertical-align:text-bottom;
 }
 
 .small_img {
-  margin-top: 20px;
   text-align: center;
   display: block;
-  margin-left: auto;
+  margin: auto;
   margin-right: auto;
   width: 30%;
   height: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Header */
 .header{
   position: static;
-  top: 10;
-  padding: 10px;
-  background-color: rgb(109, 172, 218);
+  padding: 40px;
+  background-color: rgb(67,133,139);
   z-index: 2;
 }
 
 .header a{
-  color: #000;
+  color: #A5CAC1;
+  align-content:safe;
   text-decoration: none;
-  
+  z-index: 2;
 }
 
-  /* The navbar container */
-  .topnav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    overflow: hidden;
-    background-color: #333;
-    z-index: 2;
-  }
+/* The navbar container */
+.topnav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-decoration: none;
+  overflow: hidden;
+  background-color: rgb(144,122,163);
+  z-index: 1;
+}
 
-  /* Navbar links */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 16px;
-    text-decoration: none;
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  position: inherit;
+  height:50px;
+  line-height: 50px;
+  + .rightnav {
+    float: right;
   }
+}
+
+.active {
+    background-color: rgb(50,41,68);
+}
 
 /* Links - change color on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: #325e80;
+}
+
+.topnav a:active {
+  background-color: rgb(67,133,139);
+  color: #ddd;
 }
 
 /* Clear floats after the columns */
@@ -111,54 +125,34 @@ a {
   clear: both;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  position: static;
-  object-fit: contain;
-  top: 0;
-  width: 80%;
-  z-index: 2;
+abbr[title] {
+  font-style: italic;
+  position: relative;
+  text-decoration:underline;
 }
 
-/* Right column */
-.rightcolumn {
-  float: right;
-  position: static;
-  top: 0;
-  width: 20%;
-  justify-content: right;
-  object-fit: contain;
-  z-index: 2;
-}
-
-.sun {
-    background-image: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
-    width: 150px;
-    height: 150px;
-    opacity: 0.95;
-    border-radius: 50%;
-    animation: juliaanimation 2s infinite linear;
-    transition: width 1s, height 1s;
-    z-index: 1;
-}
-
-abbr {
-  /* font-style: italic; */
-  position: relative
-}
-
-abbr:hover::after {
-  background: #e6e9e9;
-  font-size: small;
-  border-radius: 4px;
-  bottom: 100%;
+abbr[title]:hover::after,
+abbr[title]:focus::after {
   content: attr(title);
-  display: block;
-  left: 100%;
-  padding: 1em;
-  position: absolute;    
-  width: 280px;
-  z-index: 2;
+  text-align: left;
+  position: absolute;
+  left: 1;
+  bottom: 100%;
+  width: 200px;
+  white-space: wrap;
+  background-color: #fff;
+  color: #1e1e1e;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.4);
+  font-size: 15px;
+  padding: 5px 5px;
+}
+
+.material-symbols-outlined {
+  width: 30px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 0,
 }
