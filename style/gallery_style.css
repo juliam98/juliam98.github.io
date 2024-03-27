@@ -21,7 +21,7 @@ contain information about my coding projects */
     width: 400px; 
     text-align: center;
     border-radius:1em;
-    border: 1.5px solid black;
+    border: 2.5px solid rgb(144,122,163);
     text-decoration: none;
     .small_img {
         text-align: center;
@@ -38,6 +38,7 @@ contain information about my coding projects */
 
 .boxitem a {
     text-align: center;
+    margin: 10px;
     font-size: 23px;
     color: rgb(201, 240, 255);
     text-decoration: none;
