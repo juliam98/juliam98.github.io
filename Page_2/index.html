@@ -4,6 +4,7 @@
     <head>
         <title>Julia's Page 1</title>
         <link rel="stylesheet" href="../style/main.css" type="text/css"/>
+        <link rel="stylesheet" href="../style/gallery_style.css" type="text/css"/>
         <link rel="icon" type="image/x-icon" href="../style/Julka i Mycha.jpeg">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,21 +23,48 @@
             <a href="/">
                 <span  class="material-symbols-outlined">Home</span>
             </a>
-            <a class="active" href="../Page_1/index.html">Julia's Page 1</a>
+            <a class="active" href="../Page_2/index.html">
+                <span  class="material-symbols-outlined">Code_Blocks</span>Projects
+            </a>
+            <a href="../Page_1/index.html">Julia's Page 1</a>
             <a class="rightnav" href="mailto:juliamarcinkowska98@gmail.com"><i style="font-size:28px" class="fa">&#xf0e0;</i></a>
             <a class="rightnav" href="https://github.com/juliam98/" target="_blank"><i style="font-size:28px" class="fa">&#xf09b;</i></a>
             <a class="rightnav" href="https://www.linkedin.com/in/juliamarcinkowska98/" target="_blank"><i style="font-size:28px" class="fa">&#xf08c;</i></a>
             <a class="rightnav" href="https://www.instagram.com/julia_marcinkowska/" target="_blank"><i style="font-size:28px" class="fa">&#xf16d;</i></a>
-            <a class="rightnav" href="https://orcid.org/0009-0007-3120-1816" target="_blank"><i style="font-size:28px" class="fa fa-orcid"></i></a>
+            <!-- <a class="rightnav" href="https://orcid.org/0009-0007-3120-1816" target="_blank"><i style="font-size:28px" class="fa fa-orcid"></i></a> -->
         </div>
 
         <h2>Hello</h2>
 
-        <p style="text-align: center;">this is page 2</p>
-            
-        <img src="/style/baby Julia.jpg" alt="Photo of Julia" class="small_img">
+        <p style="text-align: center;">Here are some of my coding projects:</p>
         
-        <p style="text-align: center;">I am still building it! </p>
+        <div class="boxsection">
+
+            <div class="boxitem">
+                <a href="https://github.com/juliam98/Photo-to-Excel" target="_blank">Photo to excel converter <i style="font-size:25px; color:black; margin-left: 10px;" class="fa">&#xf09b;</i></a>
+                <img src="/style/photo_to_excel.png" alt="Photo to Excel" class="small_img">
+                <p>This script allows you to transfer your photo to excel by pixelating it into 64x64 rersolution and extracting the colour value of each pixel. The cells in excel are scaled into aquares and coloured with the colour of the corresponding pixel.</p>
+            </div>
+
+            <div class="boxitem">
+                <a href="https://github.com/juliam98/PDF_editor_tools_GUI" target="_blank">PDF converter GUI <i style="font-size:25px; color:black; margin-left: 10px;" class="fa">&#xf09b;</i></a>
+                <img src="/style/PDF_GUI_tools.png" alt="PDF_editor_tools_GUI" class="small_img">
+                <p>This is one of those projects you do out of spite. I refuse to pay for Acrobat premium to be able to rotate or merge PDFs. This simple GUI rotates individual pages and merges PDFs. This was my first go at object oriented prrogramming.</p>
+            </div>
+
+            <div class="boxitem">
+                <a>TFL API</a>
+                <img src="/style/TFL_API.png" alt="TFL API" class="small_img">
+                <p>This simple python script fetches departure times of an underground line at your stop from the TFL website. This is not yet on my github because (unless you also work 8 minutes away frorm Denmark Hill station) it's only useful for me. I will tweak it upload soon.</p>
+            </div>
+
+            <div class="boxitem">
+                <a>Pulsar</a>
+                <img src="/style/TFL_API.png" alt="TFL API" class="small_img">
+                <p>This simple python script fetches departure times of an underground line at your stop from the TFL website. This is not yet on my github because (unless you also work 8 minutes away frorm Denmark Hill station) it's only useful for me. I will tweak it upload soon.</p>
+            </div>
+
+        </div>
 
     </body>
 </html>
