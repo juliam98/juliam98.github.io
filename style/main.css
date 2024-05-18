@@ -119,6 +119,7 @@ span {
 .topnav .active {
   background-color: rgb(50,41,68);
   color: rgb(144,122,163);
+  
 }
 
 /* Links - change color on hover */
