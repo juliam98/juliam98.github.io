@@ -1,0 +1,51 @@
+- category: What I did for data analysis
+  description: |
+    Lately most of my coding has been in relation to my PhD, but I don't almost any of it on GitHub (probably because I'm still in the date analysis stages and don't have mucch to show off yet). However I did uplad the scripts I used for the analysis of my MSc thesis project, and I am proud of the figures there.
+  tiles:
+    - title: Receptor maps 
+      subtitle: in python
+      href: https://github.com/juliam98/Schizotypy-receptor-maps
+      code: https://github.com/juliam98/Schizotypy-receptor-maps/tree/main/5_results
+      thumbnail: "/images/msc.png"
+
+- category: What I did for fun
+  description: |
+    Those are the projects that I did purely for fun. 
+    All form, no substance. No business, just pleasure. 
+  tiles:
+    - title: photo_to_excel
+      subtitle: converter
+      href: https://github.com/juliam98/Photo-to-Excel
+      code: https://github.com/juliam98/Photo-to-Excel
+      thumbnail: "/images/photo_to_excel.png"
+    - title: Granny square colour combinations
+      subtitle:
+      href: https://github.com/juliam98/granny_square_colour_combinations
+      code: https://github.com/juliam98/granny_square_colour_combinations
+      thumbnail: "/images/squares.jpg"
+    - title: Pulsar plot
+      subtitle: and the joys of MatLab
+      href: https://github.com/juliam98/Pulsar_plot
+      code:  https://github.com/juliam98/Pulsar_plot
+      thumbnail: "/images/pulsar.png"
+    - title: Bash scripts
+      subtitle: just for fun
+      href: https://github.com/juliam98/fun-little-bash-scripts
+      code:  https://github.com/juliam98/fun-little-bash-scripts
+      thumbnail: "/images/terminal.png"
+
+- category: What I did out of spite
+  description: |
+    Some projects were inspired by my pettines; whether refusing to pay for acrobat premium just to be able to merge PDFs and rotate pages, or dealing with broadband company asking me to take internet speed measurements over and over again instead of addressing the issue themselves; I turn my frustration into action. 
+  tiles:
+    - title: PDF GUI 
+      subtitle: tools with Tkinter
+      href: https://github.com/juliam98/PDF_editor_tools_GUI
+      code: https://github.com/juliam98/PDF_editor_tools_GUI
+      thumbnail: "/images/PDF_GUI_tools.png"
+    - title: Hyperoptic 
+      subtitle: speed report with Quarto
+      href: https://juliam98.github.io/speedtest_4_hyperoptic/hyperoptic_report.html
+      code: https://github.com/juliam98/speedtest_4_hyperoptic
+      thumbnail: "/images/speed.png"
+

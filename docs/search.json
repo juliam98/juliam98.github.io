@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This page is still being built. I haven’t decided what I want to do with it, so stay tuned.\nIn the meantime here is me with my aunt’s parakeet Mycha1."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "juliam98",
+    "section": "",
+    "text": "Hi, I’m Julia and this is my page.\nHope you enjoy.\n\n\n\nThis is not me, but it’s one of my favourite memes"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "I’m Julia.\nI’m 26 years old. I’m a PhD student at King’s College London. My PhD project is about synaptic connectivity and glutamatergic function in shizophrenia.\nI enjoy challenges and learning new things. I constantly get excited by new projects and so I end up being mediocre in a wide range of skills, but I prefer it this way as this is my attempt to eat all the figs.\nI enjoy sailing"
+  },
+  {
+    "objectID": "about.html#about-my-phd",
+    "href": "about.html#about-my-phd",
+    "title": "About",
+    "section": "About my PhD",
+    "text": "About my PhD\nMy PhD project is about synaptic connectivity and glutamatergic function in shizophrenia."
+  },
+  {
+    "objectID": "about.html#about-my-coding",
+    "href": "about.html#about-my-coding",
+    "title": "About",
+    "section": "About my coding",
+    "text": "About my coding\nMy coding journey started alongside my experiences with neuroimaging research; I learned Matlab to conduct EEG experiments and analyse EEG data. I started learning python too, since it has wide range of applications, even though I was not convinced by the array indexing starting at 0 (I’m still not convinced).\nI learned R for statistical analyses, because I was absolutely fed up with SPSS, and I did not know Julia existed yet. The ever shifting figures in the word format of my undergraduate thesis pushed me to learn LaTeX. I learnt the basics of HTML and CSS when I started working on this website.\nDuring my MSc and PhD I learnt bash scripting, which I think is so much fun.\nThis is pretty much all I know- bits of many languages, but most at a very very basic level."
+  },
+  {
+    "objectID": "about.html#footnotes",
+    "href": "about.html#footnotes",
+    "title": "About",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nin polish augmentative of “mysz”; a big or ugly mouse↩︎"
+  }
+]

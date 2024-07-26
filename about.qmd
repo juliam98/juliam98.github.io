@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+This page is still being built. I haven't decided what I want to do with it, so stay tuned.
+
+In the meantime here is me with my aunt's parakeet Mycha[^1].
+
+![](images/julia.jpg){width=50% fig-align="left"}
+
+[^1]: in polish augmentative of "mysz"; a big or ugly mouse

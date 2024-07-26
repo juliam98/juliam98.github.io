@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Julia Marcinkowska"
+  description: Julia's website
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - projects.qmd
+    right:
+      - icon: github
+        href: https://github.com/juliam98/
+    logo: "/images/A ball.png"
+    favicon: "/images/A ball.png"
+    search: false
+    open-graph: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    link-external-newwindow: true
+    footnotes-hover: true
+
+
+
