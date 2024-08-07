@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -238,6 +238,26 @@ window.Quarto = {
     
   </div>
 
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="1">
+    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
+      <small class="card-text inline-block">
+        <a href="https://juliam98.github.io/phd-upgrade-proposal/" class="listing-title">PhD upgrade proposal</a>
+         
+        <a href="https://github.com/juliam98/phd-upgrade-proposal" title="View source code" class="source-code card-text float-end inline-block">
+          <i class="bi-code-slash"></i>
+        </a>
+        
+        <span class="text-muted listing-subtitle">with Quarto</span>
+      </small>
+    </div>
+    <a href="https://juliam98.github.io/phd-upgrade-proposal/">
+      <img src="./images/phd-upgrade.png" alt="" class="card-img-top">
+    </a>
+    
+    
+    
+  </div>
+
 </div>
 
 <h2 class="anchored">What I did for fun</h2>
@@ -248,7 +268,7 @@ All form, no substance. No business, just pleasure.
 
 <div class="list grid" style="column-gap: 10px;">
 
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="1">
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="2">
     <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
       <small class="card-text inline-block">
         <a href="https://github.com/juliam98/Photo-to-Excel" class="listing-title">photo_to_excel</a>
@@ -268,7 +288,7 @@ All form, no substance. No business, just pleasure.
     
   </div>
 
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="2">
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="3">
     <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
       <small class="card-text inline-block">
         <a href="https://github.com/juliam98/granny_square_colour_combinations" class="listing-title">Granny square colour combinations</a>
@@ -288,7 +308,7 @@ All form, no substance. No business, just pleasure.
     
   </div>
 
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="3">
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="4">
     <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
       <small class="card-text inline-block">
         <a href="https://github.com/juliam98/Pulsar_plot" class="listing-title">Pulsar plot</a>
@@ -308,7 +328,7 @@ All form, no substance. No business, just pleasure.
     
   </div>
 
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="4">
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="5">
     <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
       <small class="card-text inline-block">
         <a href="https://github.com/juliam98/fun-little-bash-scripts" class="listing-title">Bash scripts</a>
@@ -337,7 +357,7 @@ All form, no substance. No business, just pleasure.
 
 <div class="list grid" style="column-gap: 10px;">
 
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="5">
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="6">
     <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
       <small class="card-text inline-block">
         <a href="https://github.com/juliam98/PDF_editor_tools_GUI" class="listing-title">PDF GUI</a>
@@ -357,7 +377,7 @@ All form, no substance. No business, just pleasure.
     
   </div>
 
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="6">
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="7">
     <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
       <small class="card-text inline-block">
         <a href="https://juliam98.github.io/speedtest_4_hyperoptic/hyperoptic_report.html" class="listing-title">Hyperoptic</a>
@@ -473,6 +493,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
           // target, if specified
           link.setAttribute("target", "_blank");
           if (link.getAttribute("rel") === null) {
@@ -514,7 +539,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

@@ -7,6 +7,11 @@
       href: https://github.com/juliam98/Schizotypy-receptor-maps
       code: https://github.com/juliam98/Schizotypy-receptor-maps/tree/main/5_results
       thumbnail: "/images/msc.png"
+    - title: PhD upgrade proposal 
+      subtitle: with Quarto
+      href: https://juliam98.github.io/phd-upgrade-proposal/
+      code: https://github.com/juliam98/phd-upgrade-proposal
+      thumbnail: "/images/phd-upgrade.png"
 
 - category: What I did for fun
   description: |
