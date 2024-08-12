@@ -5,6 +5,7 @@ project:
 website:
   title: "Julia Marcinkowska"
   description: Julia's website
+  favicon: "/images/A ball.png"
   navbar:
     left:
       - href: index.qmd
@@ -15,7 +16,7 @@ website:
       - icon: github
         href: https://github.com/juliam98/
     logo: "/images/A ball.png"
-    favicon: "/images/A ball.png"
+    
     search: false
     open-graph: true
 
