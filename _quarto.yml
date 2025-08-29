@@ -10,13 +10,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - projects.qmd
+      - href: projects.qmd
+        text: Projects
+      - href: publications.qmd
+        text: Publications
     right:
+      - contact.qmd
       - icon: github
         href: https://github.com/juliam98/
     logo: "/images/A ball.png"
-    
+    lightbox: false
     search: false
     open-graph: true
 

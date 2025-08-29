@@ -1,9 +1,11 @@
 ---
-title: "juliam98"
+title: "Home"
 ---
 
 Hi, I'm Julia and this is my page. 
 
-Hope you enjoy. 
+I have created it to share my stupid (but fun) coding projects, my publications, and anything else that I might make and deem worthy of being seen. 
 
-![This is not me, but it's one of my favourite memes](images/rob.png)
+![Me, working on one of my silly projects](images/ivegotacomputer.jpg){fig-align="left"}
+
+Apart from digital content, I also knit and you can check out my projects [here](https://www.ravelry.com/projects/juliam98). 
