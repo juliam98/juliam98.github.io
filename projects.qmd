@@ -1,0 +1,15 @@
+---
+title: "Projects"
+format:
+  html:
+    toc: false
+search: false
+execute:
+  echo: false
+listing:
+  - id: projects_gallery
+    template: gallery.ejs
+    contents: projects_gallery.yml
+---
+
+Here are some cool coding projects that I've done. 
