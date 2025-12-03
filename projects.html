@@ -25,10 +25,14 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
 <link href=".//images/A ball.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -39,6 +43,18 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -114,15 +130,6 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Julia’s website">
-<meta property="og:description" content="This is Julia’s website">
-<meta property="og:image" content="images/ivegotacomputer.jpg">
-<meta property="og:site_name" content="Julia Marcinkowska">
-<meta property="og:image:alt" content="Image of corvax">
-<meta name="twitter:title" content="Julia Marcinkowska - Projects">
-<meta name="twitter:description" content="Julia’s website">
-<meta name="twitter:creator" content="JuliaMa_98">
-<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -139,6 +146,7 @@ window.Quarto = {
     <span class="navbar-title">Julia Marcinkowska</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -158,14 +166,14 @@ window.Quarto = {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/juliam98/"> <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/juliam98/"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -328,47 +336,6 @@ All form, no substance. No business, just pleasure.
   <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="5">
     <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
       <small class="card-text inline-block">
-        <a href="" class="listing-title">Water sort game (TBA)</a>
-        
-        <span class="text-muted listing-subtitle">Machine learn water sort</span>
-      </small>
-    </div>
-    <a href="">
-      <img src="./images/watersort.png" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-</div>
-
-<h2 class="anchored">What I did to learn</h2>
-
-<p>Learning through fun projects.
-</p>
-
-<div class="list grid" style="column-gap: 10px;">
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="6">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
-        <a href="https://github.com/juliam98/Projects-in-C" class="listing-title">Projects in C</a>
-        
-        <span class="text-muted listing-subtitle"></span>
-      </small>
-    </div>
-    <a href="https://github.com/juliam98/Projects-in-C">
-      <img src="./images/hangman.png" alt="" class="card-img-top">
-    </a>
-    
-    
-    
-  </div>
-
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="7">
-    <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
-      <small class="card-text inline-block">
         <a href="https://github.com/juliam98/fun-little-bash-scripts" class="listing-title">Bash scripts</a>
          
         <a href="https://github.com/juliam98/fun-little-bash-scripts" title="View source code" class="source-code card-text float-end inline-block">
@@ -395,7 +362,7 @@ All form, no substance. No business, just pleasure.
 
 <div class="list grid" style="column-gap: 10px;">
 
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="8">
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="6">
     <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
       <small class="card-text inline-block">
         <a href="https://github.com/juliam98/PDF_editor_tools_GUI" class="listing-title">PDF GUI</a>
@@ -415,7 +382,7 @@ All form, no substance. No business, just pleasure.
     
   </div>
 
-  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="9">
+  <div class="card border-2 rounded-3 g-col-12 g-col-sm-6 g-col-md-4 mb-2" data-index="7">
     <div class="card-header py-1 px-2 border-bottom border-1 bg-light">
       <small class="card-text inline-block">
         <a href="https://juliam98.github.io/speedtest_4_hyperoptic/hyperoptic_report.html" class="listing-title">Hyperoptic</a>
@@ -424,7 +391,7 @@ All form, no substance. No business, just pleasure.
           <i class="bi-code-slash"></i>
         </a>
         
-        <span class="text-muted listing-subtitle">speed report in Quarto</span>
+        <span class="text-muted listing-subtitle">speed report with Quarto</span>
       </small>
     </div>
     <a href="https://juliam98.github.io/speedtest_4_hyperoptic/hyperoptic_report.html">
@@ -522,7 +489,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/juliam98\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
