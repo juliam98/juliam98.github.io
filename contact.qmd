@@ -2,7 +2,7 @@
 title: "Contact"
 ---
 
-If you want to contace me on <marcinkowska.julia@pm.me> here is the PGP key:
+If you want to contact me on <marcinkowska.julia@pm.me> here is the PGP key:
 
 ```default
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -23,3 +23,5 @@ ftfbig75qIs6CVEDUz89M2/foFdc9yvMTYBiBA==
 =bN1j
 -----END PGP PUBLIC KEY BLOCK-----
 ```
+
+But preferably just contact me on signal. 

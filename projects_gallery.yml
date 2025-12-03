@@ -33,6 +33,20 @@
       href: https://github.com/juliam98/Pulsar_plot
       code:  https://github.com/juliam98/Pulsar_plot
       thumbnail: "/images/pulsar.png"
+    - title: Water sort game (TBA)
+      subtitle: Machine learn water sort
+      href: 
+      code:  
+      thumbnail: "/images/watersort.png"
+
+- category: What I did to learn
+  description: |
+    Learning through fun projects.
+  tiles:
+    - title: Projects in C
+      subtitle: 
+      href: https://github.com/juliam98/Projects-in-C
+      thumbnail: "/images/hangman.png"
     - title: Bash scripts
       subtitle: just for fun
       href: https://github.com/juliam98/fun-little-bash-scripts
@@ -49,7 +63,7 @@
       code: https://github.com/juliam98/PDF_editor_tools_GUI
       thumbnail: "/images/PDF_GUI_tools.png"
     - title: Hyperoptic 
-      subtitle: speed report with Quarto
+      subtitle: speed report in Quarto
       href: https://juliam98.github.io/speedtest_4_hyperoptic/hyperoptic_report.html
       code: https://github.com/juliam98/speedtest_4_hyperoptic
       thumbnail: "/images/speed.png"

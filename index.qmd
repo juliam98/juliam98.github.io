@@ -1,5 +1,6 @@
 ---
 title: "Home"
+search: false
 ---
 
 Hi, I'm Julia and this is my page. 
@@ -8,4 +9,7 @@ I have created it to share my stupid (but fun) coding projects, my publications,
 
 ![Me, working on one of my silly projects](images/ivegotacomputer.jpg){fig-align="left"}
 
-Apart from digital content, I also knit and you can check out my projects [here](https://www.ravelry.com/projects/juliam98). 
+Other than the whimsical creations I make on my computer I also:
+
+* Knit (you can check out my projects on [ravelry](https://www.ravelry.com/projects/juliam98)). 
+* Read 
